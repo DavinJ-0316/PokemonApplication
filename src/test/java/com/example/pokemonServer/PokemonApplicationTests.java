@@ -1,4 +1,4 @@
-package com.example.mavending;
+package com.example.pokemonServer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
