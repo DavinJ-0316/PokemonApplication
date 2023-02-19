@@ -5,7 +5,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-
 public class EmployeePostDto {
     private String firstName;
     private String lastName;
