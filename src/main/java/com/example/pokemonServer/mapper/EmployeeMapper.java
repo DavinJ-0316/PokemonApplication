@@ -13,10 +13,12 @@ import org.mapstruct.factory.Mappers;
 @Mapper(componentModel = "spring", unmappedTargetPolicy = ReportingPolicy.IGNORE)
 public interface EmployeeMapper {
 
-//    EmployeeMapper INSTANCE = Mappers.getMapper(EmployeeMapper.class);
-
+    //to create an instance of a mapper in MapStruct, why ticktacktoe no need to create an instance of a mapper in MapStruct?
+    //EmployeeMapper INSTANCE = Mappers.getMapper(EmployeeMapper.class);
     EmployeeGetDto fromEntity (Employee employee);
 
     Employee toEntity (EmployeePostDto employeePostDto);
+
+
     
 }

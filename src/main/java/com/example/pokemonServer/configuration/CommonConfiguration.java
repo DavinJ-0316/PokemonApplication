@@ -9,4 +9,5 @@ public class CommonConfiguration {
 
     @Bean
     public ObjectMapper getObjectMapper() { return new ObjectMapper(); }
+
 }

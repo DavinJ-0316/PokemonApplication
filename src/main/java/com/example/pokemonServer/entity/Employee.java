@@ -8,11 +8,10 @@ package com.example.pokemonServer.entity;
 import lombok.*;
 
 import javax.persistence.*;
-
-@Getter
-@Setter
 @Entity
 @Table(name = "TBL_EMPLOYEES")
+@Getter
+@Setter
 @RequiredArgsConstructor
 // Class
 public class Employee {
